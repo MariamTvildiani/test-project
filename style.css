@@ -1,0 +1,58 @@
+
+
+#logo-img{
+    width: 200px;
+    /* height: 200px; */
+}
+
+header {
+    background-color: rgb(232, 252, 252);
+}
+
+h2 {
+    font-size: 25px;
+}
+
+.title {
+    color :blue;
+}
+
+article span {
+    font-weight: bold;
+}
+
+p {
+    color: rgb(93, 38, 144);
+}
+
+footer {
+    background-color: rgb(217, 234, 246);
+}
+
+header, ul {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+header {
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    gap: 30px;
+}
+
+header a:hover {
+    color: #7781dd;
+    text-decoration: none;
+}
+
+
+
+
+
